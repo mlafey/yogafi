@@ -1,0 +1,285 @@
+/***** BASE STYLES *****/
+a:link {
+    color: #2b2b2b;
+    text-decoration: none;
+  }
+a:link, a:visited {
+    color: #2b2b2b;
+}
+  
+a:hover {
+    color: #5cf0e4;
+  }
+
+body {
+    font-family: 'Lora', serif;
+    color: #f3f3f5;
+    background: linear-gradient(to bottom, #63bafd 0%, #5c66f0 100%);
+}
+#yoga, #testimonials #contact {
+    height: 600px;
+}  
+
+/***** GRID *****/
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+.half-width {
+    width: 50%;
+    float: left;
+}    
+.third-width{
+    width: 33%;
+    float: left;
+}    
+
+/***** HEADER *****/ 
+header {
+    cursor: pointer;
+    background: url('../img/dancer600.png');
+    background-size: cover;
+    height: 600px;
+    box-sizing: border-box
+}
+
+.topnav {
+    background: rgba(243, 243, 245, 0.5);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.topnav h1{
+    font-size: 20px;
+    padding: 0 16px;
+}
+
+.topnav a {
+    color: #2b2b2b;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration:  none;
+    text-transform: uppercase;
+}
+
+.topnav a:hover{
+    color: #12a8b2;
+}
+
+.topnav-right {
+    float: right;
+}
+
+header h2 {
+    clear: both;
+    color: #f3f3f5;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 115px 0 0 50px;
+    text-shadow: 2px 2px #2b2b2b;
+    width: 100%;
+}
+
+/***** ABOUT *****/
+#about .full-width{
+    height: 650px;
+    background: linear-gradient(to bottom, #63bafd 0%, #5c66f0 100%);
+    padding: 30px 0 20px 0;
+}
+#about h2{
+    font-size: 32px;
+    padding-left: 50px;
+}
+
+#about p{
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/***** YOGA ******/
+#yoga {
+    color: #2b2b2b;
+    text-align: center;
+    background-color: #f3f3f5;
+    box-sizing: border-box
+}
+
+#yoga .full-width {
+    padding: 115px 0;
+}
+
+/**** NEED TO ADD IMAGES FROM WILL*****/
+#yoga img {
+    padding-bottom: 30px;
+}
+
+#yoga h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+/*****YOGA TYPE*****/
+
+#yoga a {
+    font-size: 20px;
+    line-height: 62px;
+}
+
+#yoga p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/*****YOGA TYPE DESCRIPTION*****/
+#yoga p span {
+    font-size: 20px;
+}
+
+/***** TESTIMONIALS *****/
+#testimonials h1 {
+    font-size: 36px;
+    padding: 30px 0 0 80px;
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    }
+    
+    /* Slides */
+    .mySlides {
+    display: none;
+    padding: 120px;
+    text-align: center;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 65px;
+    width: auto;
+    margin-top: 65px;
+    padding: 35px;
+    color: #f3f3f5;
+    font-weight: bold;
+    font-size: 21px;
+    border-radius: 0 2px 2px 0;
+    user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a transparent black background */
+    .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: #f3f3f5;
+    }
+    
+    /* The dot/bullet/indicator container */
+    .dot-container {
+        text-align: center;
+        padding: 20px;
+        background:transparent;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #f3f3f5;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+    
+    /* Add a background color to the active dot/circle */
+    .active, .dot:hover {
+    background-color: #717171;
+    }
+    
+    /* Add an italic font style to all quotes */
+    q {
+        font-family: 'lora', serif;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 30px;
+    }
+    
+    /* Add a blue color to the author */
+    .author {
+        font-family: 'lora', serif;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 30px;
+    }
+
+/***** CONTACT*****/
+#contact .full-width {
+    background-color: #f3f3f5;
+    height: 550px;
+    padding: 110px 0 0 50px;
+}
+#contact img#contact-img {
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul
+{
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+#contact h2 {
+    color: #2b2b2b;
+    font-size: 30px;
+    line-height: 44px;
+}
+#contact #email-header {
+    color: #2b2b2b;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -0px 0 5px 0;
+}
+#contact #socialmedia-header{
+    color: #2b2b2b;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    color: #5c66f0;
+    font-size: 20px;
+    text-decoration: none;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+#contact ul img {
+    font-size:32px;
+    padding-right: 48px;
+}

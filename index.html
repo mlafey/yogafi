@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Yoga by FeelingInspired</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+    </head>
+<body>
+    <header>
+        <div class="full-width">
+            <div class="topnav">
+                <h1>Yoga by FeelingInspired</h1>
+            <div class="topnav-right">
+                <a href="#about">About</a>
+                <a href="#yoga">Yoga</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>    
+            </div>
+                <h2>Let your practice be a celebration of life &sim; <br>Seido lee deBarros</h2>
+        </div> 
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="full-width">
+                <h2>A little about me.</h2>
+                <div class="half-width">
+                    <p>Mariah is a certified Yoga Alliance instructor, completing her 200 hour yoga teacher training with Kindness Yoga in Denver, CO, where she currently resides. Originally from Boston, MA, Mariah found her love for yoga over 10 years ago at a boutique studio in the North End (Boston’s little Italy). Her passion for yoga stems from both its physical and mental benefits. She believes the benefits of yoga lie in getting back to the basics - incorporating guided meditation and more simple poses (asanas) to create an experience that brings awareness to the present moment and encourages growth, although she does enjoy playing around with some of the more “fancy” poses too.</p>
+                </div>
+                <div class="half-width">
+                    <p>Mariah believes yoga is for everyone, whether you're flexible or not. Everyone's bodies are built differently and everyone's skill level is different, but that shouldn’t hinder anyone from reaping the benefits of yoga. Her goal as an instructor is to design a class that's unique to your individual needs, whether that's to relax and restore, stretch and lengthen, build strength, or to simply let loose and explore challenging poses. She specializes in working with small groups and will customize each class.</p>
+                </div>
+            </div>
+        </section>
+        <section id="yoga">
+            <div class="full-width">
+                <div class="third-width">
+                        <h3>Private Yoga</h3>
+                            <p>Mariah designs classes for small private groups. Whether you’re looking for one-on-one training or celebrating with a group of friends/family, Mariah will work with you to create a class that meets your needs.</span></p>
+                </div>
+                <div class="third-width">
+                        <h3>Yoga Styles</h3>
+                        <a href="https://www.yogajournal.com/yoga-101/types-of-yoga/restorative-types-of-yoga" target="_BLANK">Restorative</a>
+                        <br><span>A yoga sequence that typically involves five poses, supported by props, which allow you to completely relax.<br>
+                        <p></p>
+                        <a href="https://www.yogajournal.com/yoga-101/types-of-yoga/vinyasa-yoga" target="_BLANK">Vinyasa Flow</a>
+                        <br><span>A yoga sequence of coordinated movements and breaths to flow from one pose to the next.<br>
+                </div>
+                <div class="third-width">
+                        <h3>What to Expect</h3>
+                            <p>To have fun! Just like all of us, yoga comes in many different forms. Mariah’s classes vary from slow and calming to whimsical classes that play with different poses. Mariah provides gentle hands-on assists, for those open to them.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h1>Hear from Mariah's students</h1>
+            <style>
+            </style>
+            </head>
+            <body>
+            
+            <div class="slideshow-container">
+                <div class="mySlides">
+                    <q>Mariah is an excellent yoga teacher! Her lessons flow beautifully whilst also being tailored to your every need. Her classes not only provide physical exercise but also a great mental break...they are wonderfully meditative. I would recommend her to anyone looking for a yoga instructor and I very much look forward to the next opportunity to do yoga with her.</q>
+                    <p class="author">~ Poppy</p>
+                  </div>
+                  
+                  <div class="mySlides">
+                    <q>Mariah's yoga classes are not only personally inspiring, but empowering. I leave her classes feeling uplifted and motivated to tackle whatever lands in my day. Her classes are purposeful and thoughtful and her teaching style is clear, helpful, and approachable. It's a joy taking these classes as I always feel lighter on my feet when I leave, in addition to stronger and more aligned in my yoga practice!</q>
+                    <p class="author">~ Kirsten</p>
+                  </div>
+                  
+                  <div class="mySlides">
+                    <q>Mariah has led a number of yoga sessions for me that have all been high quality. She really sets the tone for a great class and has a mind for thinking through the entire experience for each participant. She also has a very soothing voice and meditative flow - highly recommended.</q>
+                    <p class="author">~ Nick</p>
+                  </div>
+                  
+                  <div class="mySlides">
+                    <q>Mariah has a great understanding of yoga and knows how to modify your practice to what you want. Her calming voice and attention to breathing and pace are on point to keep you relaxed or push you to new levels. Plus she isn't afraid to be hands on if you need assistance!</q>
+                    <p class="author">~ Dusty</p>
+                  </div>
+                  
+                  <a class="prev" onclick="plusSlides(-1)">❮</a>
+                  <a class="next" onclick="plusSlides(1)">❯</a>
+                  
+                  </div>
+                  
+                  <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                  </div>
+            
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            }
+            </script>
+        </section>
+
+        <footer id="contact">
+            <div class="full-width">
+                <div class="half-width">
+                    <img src="img/standinghtof.png" id="contact-img" alt="Contact" />
+                </div>
+                <div class="half-width" id="contact-info">
+                    <h2>Want to learn more?</h2>
+                    <h3 id="email-header">Let's chat</h3>
+                        <a href="mailto:mariah@feelinginspiredyoga.com"><img src="img/icon-envelope.png" id="envelope" alt="envelope-icon" />Mariah[@]feelinginspiredyoga.com</a>
+                    <h3 id="socialmedia-header"> Or, connect with me on social</h3>
+                        <ul>
+                            <li><a href="http://instagram.com/feelinginspired" target="_BLANK"> <img src="img/icon-instagram.png" alt="Instagram icon" /></a></li>
+                            <li><a href="https://www.pinterest.com/feelinginspired_mariah/" target="_BLANK"> <img src="img/icon-pinterest.png" alt="Pinterst icon" /></a></li>
+                            <li><a href="https://www.linkedin.com/in/feelinginspired/" target="_BLANK"> <img src="img/icon-linkedin.png" alt="Linkedin icon" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+        </footer>
+    </main>
+</body>
+</html>
